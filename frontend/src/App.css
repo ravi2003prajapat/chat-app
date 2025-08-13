@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+.dual-chat-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 100px;
+  gap: 25px;
+}
+
+.rooms-pane {
+  flex: 1;
+  max-width: 300px;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.chat-pane {
+  flex: 2;
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-y: auto;
+}

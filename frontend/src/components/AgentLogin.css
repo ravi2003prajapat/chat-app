@@ -1,0 +1,67 @@
+/* Apply to body/html/root for full screen center */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
+
+/* Container for the agent login form */
+.agent-login-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  background: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+.agent-login-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Inputs */
+.agent-login-container input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background-color: #2e2e2e;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Placeholder */
+.agent-login-container input::placeholder {
+  color: #bbb;
+}
+
+/* Button */
+.agent-login-container button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.agent-login-container button:hover {
+  background-color: #45a049;
+}

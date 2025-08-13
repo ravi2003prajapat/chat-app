@@ -1,0 +1,35 @@
+.dual-chat-container {
+  display: flex;
+  height: 90vh; /* reduced overall height */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #121212;
+  color: #fff;
+  font-size: 0.9rem; /* matches Customer side font size */
+}
+
+/* Left side - Rooms */
+.rooms-pane {
+  flex: 0 0 240px; /* slightly smaller width */
+  max-width: 240px;
+  min-width: 240px;
+  background-color: #1e1e1e;
+  border-right: 1px solid #333;
+
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.rooms-pane::-webkit-scrollbar {
+  display: none;
+}
+
+/* Right side - Chat */
+.chat-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 240px);
+  background-color: #181818;
+  overflow: hidden;
+}
