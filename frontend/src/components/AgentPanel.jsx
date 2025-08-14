@@ -5,7 +5,8 @@ import "./AgentPanel.css";
 
 export default function AgentPanel() {
   const [selectedRoomId, setSelectedRoomId] = useState(null);
-
+  console.log("selectedRoomId", selectedRoomId);
+  
   return (
     <div className="dual-chat-container">
       <div className="rooms-pane">
